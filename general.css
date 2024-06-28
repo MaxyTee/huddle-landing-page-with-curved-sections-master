@@ -1,0 +1,49 @@
+
+
+.container{
+    max-width: 144rem;
+    margin: auto;
+    padding: 3.2rem 6.4rem;
+}
+
+.heading-primary{
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.heading-secondary{
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.grid{
+    display: grid;
+    column-gap: 6.4rem;
+}
+
+.grid--2--cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* 
+--------01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM {px}
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+---- 07 WHITESPACE
+- SPACING SYSTEM {px}
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/

@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+/***************************************/
+/*         HEADER SECTION              */
+/***************************************/
+
+.nav-bar{
+    /* max-width: 144rem;
+    margin: auto; */
+    /* padding: 3.2rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 9.8rem;
+}
+
+.nav-btn{
+    padding: 1.2rem 2.4rem;
+    background-color: transparent;
+    border-radius: 3rem;
+    border: 0.2rem solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-btn:hover{
+    background-color: hsl(321, 100%, 78%);
+    border: 0.2rem solid transparent;
+    box-shadow: 0 0.2rem 0.4rem 0 rgba(155, 155, 155, 0.2);
+    transform: translateY(-20%);
+    color: #fff;
+}
+
+/***************************************/
+/*         HERO SECTION              */
+/***************************************/
+.section-hero{
+    margin: 4.8rem 9.6rem;
+}
+
+.hero-p{
+    max-width: 70rem;
+    margin: auto;
+}
+
+.hero{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.hero-img img{
+    margin: 8rem 0;
+    width: 90%;
+}
+
+.hero-btn{
+    cursor: pointer;
+    padding: 1.6rem 3.2rem;
+    border-radius: 3rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: none;
+    margin: 1.2rem 0;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.hero-followers{
+    max-width: 70rem;
+    margin: auto;
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    text-align: left;
+}
+
+.follower{
+    font-size: 7.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-icon img{
+    width: 2rem;
+    /* margin-bottom: 0.6rem; */
+}
+
+/***************************************/
+/*         GROW SECTION              */
+/***************************************/
+.section-grow, .section-user{
+    /* background: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    margin: 8rem 0;
+}
+
+.grow-img img, .flowing-img img, .user-img img{
+    width: 100%;
+}
+
+.grow-discription, .flowing-discription, .user-discription{
+    align-self: center;
+    /* width: 70%; */
+}
+
+
+
+
+
+/***************************************/
+/*         BUILD SECTION              */
+/***************************************/
+
+
+.build-container{
+    text-align: center;
+}
+
+
+
+
+
+
+.section-footer{
+    background: url(images/bg-footer-top-desktop.svg) no-repeat;
+    background-size: contain;
+    height: 50vh;
+    color: hsl(207, 100%, 98%);
+}
+
+.footer-img svg{
+    fill: #fff;
+    stroke: #fff;
+    color: #fff;
+    margin-bottom: 2rem;
+
+}
+
+.footer-discription{
+    width: 60%;
+}
+
+.footer-p{
+    font-size: 1rem;
+}
+
+/* 
+--------01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM {px}
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+---- 07 WHITESPACE
+- SPACING SYSTEM {px}
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/

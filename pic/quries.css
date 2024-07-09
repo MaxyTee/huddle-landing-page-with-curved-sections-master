@@ -1,0 +1,299 @@
+/* @media(max-width: 81.25em){
+    .navbar{
+        padding: 1.2rem 2.4rem;
+    }
+} */
+
+@media(max-width: 75em){
+    html{
+        font-size: 56.25%;
+    }
+
+    .navbar{
+        padding: 1.2rem 2.4rem;
+    }
+
+    .gallery-img img {
+        height: 30rem;
+    }
+
+    .news-img img {
+        height: 26rem;
+    }
+
+    .grid--sp--cols{
+        column-gap: 8rem;
+    }
+
+    .heading-primary{
+        font-size: 5.2rem;
+    }
+}
+
+@media(max-width: 63.25em){
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+
+    .heading-secondary{
+        font-size: 3.6rem;
+    }
+    
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+
+    .main-nav-list a:link, 
+    .main-nav-list a:visited {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 53.75em){
+    html{
+        font-size: 50%;
+    }
+
+    .grid--4--cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mobile-nav-btn{
+        z-index: 99999;
+        display: block;
+    }
+
+    .main-nav{
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(255, 228, 179, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        transition: all 0.5s ease-in;
+
+
+        transform: translateX(100%);
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+
+    }
+
+    .open-nav .main-nav{
+        transform: translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .open-nav .menu{
+        display: none;
+    }
+
+    .open-nav .close{
+        display: block;
+    }
+
+    .main-nav-list{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .main-nav-list a:link, 
+    .main-nav-list a:visited {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .heading-primary{
+        font-size: 4rem;
+    }
+
+    .heading-secondary{
+        font-size: 3rem;
+    }
+    
+    .heading-tertiary{
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        font-size: 1rem;
+    }
+
+    .grid--sp--cols {
+        column-gap: 6.4rem;
+    }
+    
+    .about-img img {
+        height: 40rem;
+    }
+}
+
+
+@media(max-width: 41.25em) {
+    .heading-primary {
+        font-size: 3.6rem;
+    }
+
+    .grid--3--cols{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    
+    .--mid{
+        transform: translateX(50%);
+    }
+
+    .htw-btn a:link, .htw-btn a:visited {
+        font-size: 1.4rem;
+    }
+
+    .htw-btn a {
+        gap: 0.8rem;
+    }
+
+    .htw-btn button {
+        padding: 0.4rem 0.6rem;
+    }
+}
+
+@media(max-width: 31.25em){
+    .grid--2--cols, 
+    .grid--3--cols,
+    .grid--4--cols,
+    .grid--sp--cols{
+        grid-template-columns: 1fr;
+    }
+
+    .--mid{
+        transform: translateX(0);
+    }
+
+    .news-img img {
+        height: 30rem;
+    }
+
+    .news-card{
+        width: 70%;
+
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-pic img {
+        width: 80%;
+    }
+
+    .hero-container {
+        text-align: center;
+    }
+
+    .hero-pic {
+        /* display: flex;
+        align-items: center; */
+        justify-content: center;
+    }
+
+    .hero-btn-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .grid--sp--cols{
+        row-gap: 4.8rem;
+    }
+
+    .about-discription {
+        grid-row: 1;
+    }
+
+    .offer-img img {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .offer-text {
+        padding: 3rem 0;
+    }
+
+    .gallery-img img {
+        height: 40rem;
+    }
+
+    .htw-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .htw-img img {
+        width: 70%;
+    }
+
+    .delivery-img img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .link .gallery-img img {
+        height: 8rem;
+        width: 30%;
+    }
+
+    
+    .offer-input {
+        padding: 0.4em 1.8rem;
+    }
+
+    .htw-btn a {
+        gap: 0.8rem;
+    }
+
+    /* .htw-btn a:link, .htw-btn a:visited {
+        font-size: 1.6rem;
+    } */
+
+}
+
+@media(max-width: 23.75em){
+    .heading-primary{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .heading-secondary{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .heading-tertiary{
+        font-size: 2rem;
+    }
+
+    .icons {
+        width: 10rem;
+    }
+
+    .about-icons {
+        margin-top: 1rem;
+    }
+
+    .pad-m .grid--3--cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
